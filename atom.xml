@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Об о всем по не многу]]></title>
+  <link href="http://vvizard75.github.io/atom.xml" rel="self"/>
+  <link href="http://vvizard75.github.io/"/>
+  <updated>2013-05-25T19:00:52+11:00</updated>
+  <id>http://vvizard75.github.io/</id>
+  <author>
+    <name><![CDATA[VVizard]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Как установить Java7 на Debian]]></title>
+    <link href="http://vvizard75.github.io/blog/2013/05/25/kak-ustanovit%27-java7-na-debian/"/>
+    <updated>2013-05-25T18:22:00+11:00</updated>
+    <id>http://vvizard75.github.io/blog/2013/05/25/kak-ustanovit&#8217;-java7-na-debian</id>
+    <content type="html"><![CDATA[<p>Следующие заветные комманды добавт репозиторий и установят Java 7</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>su -
+</span><span class='line'>echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu precise main" | tee -a /etc/apt/sources.list
+</span><span class='line'>echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu precise main" | tee -a /etc/apt/sources.list
+</span><span class='line'>apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
+</span><span class='line'>apt-get update
+</span><span class='line'>apt-get install oracle-java7-installer</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+</feed>
