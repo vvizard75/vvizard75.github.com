@@ -4,7 +4,7 @@
   <title><![CDATA[Об о всём по немногу]]></title>
   <link href="http://b.vvizard.ru/atom.xml" rel="self"/>
   <link href="http://b.vvizard.ru/"/>
-  <updated>2013-08-04T02:13:51+11:00</updated>
+  <updated>2013-08-04T10:11:04+11:00</updated>
   <id>http://b.vvizard.ru/</id>
   <author>
     <name><![CDATA[VVizard]]></name>
@@ -14,13 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Ошибка A connector with id 4 is already registered]]></title>
+    <title type="html"><![CDATA[Ошибка 'A connector with id 4 is already registered']]></title>
     <link href="http://b.vvizard.ru/blog/2013/08/04/oshibka-a-connector-with-id-4-is-already-registered/"/>
     <updated>2013-08-04T01:33:00+11:00</updated>
     <id>http://b.vvizard.ru/blog/2013/08/04/oshibka-a-connector-with-id-4-is-already-registered</id>
-    <content type="html"><![CDATA[<h3>Ошибка A connector with id 4 is already registered</h3>
-
-<p>Делал я на днях авторизацию для не большого приложения на vaadin. Использовал Spring Security.
+    <content type="html"><![CDATA[<p>Делал я на днях авторизацию для не большого приложения на vaadin. Использовал Spring Security.
 По началу все шло хорошо, но в один прекрасный момент, при повторном входе на страницу (тоесть Login-Logout-Login), стал получать ошибку: &#8220;A connector with id 4 is already registered&#8221;.
 После часа проведенного в google и stackoverflow, когда ни одна из рекомендации не помогала, решил разбираться с ошибкой сам.
 Методом проб и ошибок выяснил: мой UI класс, содержал ComboBox объявленный как static. Это и приводило к ошибке, убрал static и все заработало.</p>
