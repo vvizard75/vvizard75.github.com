@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Об о всём по не многу]]></title>
+  <title><![CDATA[Об о всём по немногу]]></title>
   <link href="http://b.vvizard.ru/atom.xml" rel="self"/>
   <link href="http://b.vvizard.ru/"/>
-  <updated>2013-05-25T19:48:55+11:00</updated>
+  <updated>2013-08-04T01:09:08+11:00</updated>
   <id>http://b.vvizard.ru/</id>
   <author>
     <name><![CDATA[VVizard]]></name>
@@ -18,7 +18,7 @@
     <link href="http://b.vvizard.ru/blog/2013/05/25/kak-ustanovit%27-java7-na-debian/"/>
     <updated>2013-05-25T18:22:00+11:00</updated>
     <id>http://b.vvizard.ru/blog/2013/05/25/kak-ustanovit&#8217;-java7-na-debian</id>
-    <content type="html"><![CDATA[<p>Следующие заветные комманды добавzт репозиторий и установят Java 7</p>
+    <content type="html"><![CDATA[<p>Следующие заветные комманды добавят репозиторий и установят Java 7</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
