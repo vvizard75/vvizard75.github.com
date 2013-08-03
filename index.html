@@ -9,14 +9,7 @@
   <meta name="author" content="VVizard">
 
   
-  <meta name="description" content="Следующие заветные комманды добавят репозиторий и установят Java 7 1
-2
-3
-4
-5
-6
-su -
-echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu &hellip;">
+  <meta name="description" content="Ошибка A connector with id 4 is already registered Делал я на днях авторизацию для не большого приложения на vaadin. Использовал Spring Security. По &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -72,6 +65,48 @@ echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/08/04/oshibka-a-connector-with-id-4-is-already-registered/">Ошибка a Connector With Id 4 Is Already Registered</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-04T01:33:00+11:00" pubdate data-updated="true">Aug 4<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h1>Ошибка A connector with id 4 is already registered</h1>
+
+<pre><code>Делал я на днях авторизацию для не большого приложения на vaadin. Использовал Spring Security.
+    По началу все шло хорошо, но в один прекрасный момент, при повторном входе на страницу (тоесть Login-Logout-Login), стал получать ошибку: "A connector with id 4 is already registered".
+        После часа проведенного в google и stackoverflow, когда ни одна из рекомендации не помогала, решил разбираться с ошибкой сам. 
+            Методом проб и ошибок выяснил: мой UI класс, содержал ComboBox объявленный как static. Это и приводило к ошибке, убрал static и все заработало.
+</code></pre>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -140,6 +175,10 @@ echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu &hellip;">
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/08/04/oshibka-a-connector-with-id-4-is-already-registered/">Ошибка a Connector With Id 4 Is Already Registered</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/05/25/kak-ustanovit%27-java7-na-debian/">Как установить Java7 на Debian</a>
